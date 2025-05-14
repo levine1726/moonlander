@@ -33,6 +33,8 @@ enum custom_keycodes {
     KC_V_WITH_MOD_PASTE = LT(0,KC_V)
 };
 
+#define DEBOUNCE 1
+
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [BASE] = LAYOUT(
