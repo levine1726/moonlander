@@ -43,16 +43,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_RIGHT_BRACKET,  KC_LEFT_BRACKET, KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSLS,
         KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    LSG(KC_SPC),           LSG(KC_J),  KC_H,    KC_J,    KC_K,    KC_L,    LT(MDIA, KC_SCLN), LGUI_T(KC_QUOT),
         KC_LSFT, LCTL_T(KC_Z),KC_X_WITH_MOD_CUT, KC_C_WITH_MOD_COPY,   KC_V_WITH_MOD_PASTE,    KC_B,                                KC_N,    KC_M,    KC_COMM, KC_DOT,  RCTL_T(KC_SLSH), KC_RSFT,
-   KC_LEFT_ALT, WEBUSB_PAIR,A(KC_LSFT),KC_LEFT, KC_RGHT,  LT(NAV ,KC_ESC),    RGUI_T(KC_ESC),   KC_UP,   KC_DOWN, KC_LBRC, KC_RBRC, MO(SYMB),
+   KC_LEFT_ALT, WEBUSB_PAIR,A(KC_LSFT),KC_LEFT, KC_RGHT,  LT(NAV ,KC_ESC),    RGUI_T(KC_DEL),   KC_UP,   KC_DOWN, KC_LBRC, KC_RBRC, MO(SYMB),
                                             KC_SPC,  KC_BSPC, KC_LGUI,           KC_LALT,  KC_TAB,  KC_ENT
     ),
 
     [NAV] = LAYOUT(
-        _______, _______, _______,_______,_______, _______,   _______,           _______, _______, _______, _______, _______, _______, _______,
-        _______, _______, A(KC_W),_______,_______, A(KC_T),   _______,           _______, _______, _______, _______, _______, A(KC_P), _______,
+        VRSN,    KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   _______,           _______, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,
+        _______, _______, A(KC_W),A(KC_E),_______, A(KC_T),   _______,           _______, _______, _______, _______, _______, A(KC_P), KC_F12,
         _______, _______, A(KC_S),A(KC_D), A(KC_F), _______,  _______,           _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, _______, _______,
         _______, _______, _______,A(KC_C), _______, _______,                             _______, A(KC_M),    _______,    _______,    _______, _______,
-        KC_LEFT_ALT,  _______, _______, _______, _______,          KC_LEFT_ALT,           _______,          _______, _______,  _______,    _______,  _______,
+        KC_LEFT_ALT,  _______, _______, _______, _______,          _______,           KC_LEFT_ALT,          _______, _______,  _______,    _______,  _______,
                                             _______, _______, _______, _______,_______, _______
     ),
 
